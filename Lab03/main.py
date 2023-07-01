@@ -3,7 +3,7 @@ import re
 import datetime
 
 
-log_path = "C:\\Users\\A508\\kbtomic\\lab4\\setupapi.dev.log"
+log_path = "C:\\Users\\A508\\lnikol01\\lab3\\setupapi.dev.log"
 pattern = r'^>>>  \[Device Install.*#(Disk&Ven_[A-Za-z0-9]+)&(Prod_([\w\s\S]+?))&(Rev_([\w\s\S]+?))#([\w\s\S]+?)#.*\]'
 usb_devices_list = []
 
